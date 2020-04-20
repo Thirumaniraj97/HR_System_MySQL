@@ -1,0 +1,9 @@
+Create table Company
+(
+CompanyID int(10),
+CompanyName char(30),
+Address char(20),
+PAN char(10),
+primary key (CompanyID)
+);
+DESC Company;
