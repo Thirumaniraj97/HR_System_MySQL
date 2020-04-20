@@ -1,0 +1,15 @@
+Create table Employee
+(
+EmpID int(10),
+EmpName char(30),
+CompanyID int(10),
+DOB char(20),
+Gender char(10),
+Email char(25),
+PhoneNum char(12),
+FOREIGN KEY (CompanyID) references Company(CompanyID),
+Primary key (EmpID)
+
+);
+
+Desc Employee;
