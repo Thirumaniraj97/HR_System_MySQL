@@ -1,0 +1,9 @@
+Insert into Employee
+Values(1,'Rajdinesh',1,'14-04-1990','Male',
+'rajdinesh@gmail.com','9415412121');
+Insert into Employee
+Values(2,'Thirumani',2,'19-04-1997','Male',
+'thirumani@gmail.com','9878732251');
+
+select * from Employee;
+
