@@ -1,0 +1,26 @@
+/* Select Query */
+
+/* The WHERE clause places conditions on the selected columns,
+ whereas the HAVING clause places conditions on groups created
+ by the GROUP BY clause */
+ 
+select *from Holidays;
+
+select * from Holidays
+Where CompanyID=2;
+
+select CompanyID,count(HolidayDescription)
+from Holidays
+Group by CompanyID;
+
+select CompanyID,count(HolidayDescription)
+from Holidays
+Group by CompanyID
+Having count(HolidayDescription)=4;
+
+select CompanyID,count(HolidayDescription)
+from Holidays
+Where CompanyID in (1,2)
+Group by CompanyID
+Having count(HolidayDescription)=4;
+
