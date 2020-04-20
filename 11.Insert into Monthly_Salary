@@ -1,0 +1,10 @@
+insert into Monthly_Salary
+Values(1,1,1,'Feb-2020','2020-02-28','Financial Year',83000);
+insert into Monthly_Salary
+Values(2,1,1,'Mar-2020','2020-03-31','Financial Year',83000);
+insert into Monthly_Salary
+Values(3,1,1,'Apr-2020','2020-04-30','Financial Year',83000);
+insert into Monthly_Salary
+Values(4,2,2,'Apr-2020','2020-04-30','Calendar Year',50000);
+
+select * from Monthly_Salary;
