@@ -1,0 +1,11 @@
+Insert into Employee_leave
+Values (1,2,2,1,'Personal Leave','2020-06-11','2020-06-11');
+Insert into Employee_leave
+Values (2,1,1,1,'Personal Leave','2020-02-22','2020-02-22');
+Insert into Employee_leave
+Values (3,1,1,2,'Sick Leave','2020-03-20','2020-03-21');
+
+Insert into Employee_leave
+Values (4,2,2,1,'Sick Leave','2020-03-25','2020-03-25');
+select * from Employee_leave;
+
