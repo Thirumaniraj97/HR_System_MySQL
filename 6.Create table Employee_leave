@@ -1,0 +1,13 @@
+Create table Employee_leave
+(
+LeaveID int(10),
+EmpID int(10),
+CompanyID int(10),
+NoOfDays int(4),
+TypeOfLeave char(20),
+FromDate date,
+ToDate date,
+primary key(LeaveID),
+FOREIGN KEY (CompanyID) references Company(CompanyID),
+FOREIGN KEY (EmpID) references Employee(EmpID)
+);
