@@ -1,0 +1,14 @@
+create table Salary_Master
+(
+SalaryID1 int(10),
+EmpID int(10),
+CompanyID int(10),
+Year int(4),
+TypeOfYear char(20),
+SalaryPerYear int(10),
+primary key (SalaryID1),
+FOREIGN KEY (CompanyID) references Company(CompanyID),
+FOREIGN KEY (EmpID) references Employee(EmpID)
+);
+
+DESC Salary_Master;
