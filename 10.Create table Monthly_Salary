@@ -1,0 +1,15 @@
+create table Monthly_Salary
+(
+SalaryID2 int(10),
+EmpID int(10),
+CompanyID int(10),
+Month_Year char(15),
+Salary_date date,
+TypeOfYear char(20),
+SalaryPerMonth int(10),
+primary key (SalaryID2),
+FOREIGN KEY (CompanyID) references Company(CompanyID),
+FOREIGN KEY (EmpID) references Employee(EmpID)
+);
+
+DESC Monthly_Salary;
