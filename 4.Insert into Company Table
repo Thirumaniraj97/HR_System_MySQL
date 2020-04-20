@@ -1,0 +1,7 @@
+Insert into Company
+Values(1,'Trimble','Tidel Park','BAJKL4578B');
+
+Insert into Company
+Values(2,'CTS','MEPZ','DXJKL0122K');
+
+Select * from Company;
