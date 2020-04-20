@@ -1,0 +1,11 @@
+Create Table Holidays
+(
+CompanyID int(10),
+HolidayID int(10),
+HolidayDescription char(20),
+Date date,
+Day Char(10),
+Primary key(HolidayID),
+FOREIGN KEY (CompanyID) references Company(CompanyID)
+);
+Desc Holidays;
